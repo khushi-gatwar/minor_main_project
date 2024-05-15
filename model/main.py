@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 
 
-data = pickle.load(open(r"C:\Users\70001\Downloads\mohil_project-main\mohil_project-main\similarity.pkl",'rb'))
-tv_series = pd.read_csv(r"C:\Users\70001\Downloads\mohil_project-main\mohil_project-main\tv_series.csv")
+data = pickle.load(open(r"/Users/khushismac/Developer/minor_main_project/similarity.pkl",'rb'))
+tv_series = pd.read_csv(r"/Users/khushismac/Developer/minor_main_project/tv_series.csv")
 
 
 def recommendrating(genre, lang, rating=6,num=10):
