@@ -2,7 +2,7 @@
 import pickle
 import pandas as pd
 
-
+# change these file paths to the paths where your file is saved!
 data = pickle.load(open(r"/Users/khushismac/Developer/minor_main_project/similarity.pkl",'rb'))
 tv_series = pd.read_csv(r"/Users/khushismac/Developer/minor_main_project/tv_series.csv")
 
